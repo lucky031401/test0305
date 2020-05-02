@@ -137,7 +137,11 @@ p {
     position: relative;
     cursor: pointer;
 }
-
+.grid__item_1 { margin: 10px; }
+.product {
+    position: relative;
+    cursor: pointer;
+}
 .product__bg {
     width: 100%;
     height: 100%;
