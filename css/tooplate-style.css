@@ -7,7 +7,7 @@ http://www.tooplate.com/view/2097-pop
 */
 
 body {
-	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-family: arial,"Microsoft JhengHei",!important;;
 	font-size: 19px;
 	font-weight: 300;
     color:white;        
@@ -55,7 +55,7 @@ p {
 .tm-main-content {
     display: flex;    
     align-items: center;
-    padding: 50px 15px; 
+    padding: 10px 60px; 
     position: absolute;
     left: 0;
     right: 0;
@@ -122,11 +122,12 @@ p {
 
 .tm-nav-icon {    
     display: block;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
 }
 
 /* Expanding Grid Items from Codrops */
-.tm-page-title { font-weight: 300; }
+.tm-page-title { font-weight: 300; 
+}
 .content { max-width: 370px; }
 .grid {
     display: flex;

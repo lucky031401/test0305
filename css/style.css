@@ -7,7 +7,7 @@
  
 body {
   padding: 0px;
-  font-family: 'Microsoft JhengHei', sans-serif;
+  font-family: 'Microsoft JhengHei', sans-serif!important;
   font-size: 15px;
   color: #323232;
 }
@@ -370,7 +370,6 @@ button.btn-secondary:hover{
 }
 .about-main ul li:before{
 	content: "\f0da";
-	font-family: 'Font Awesome 5 Free';
 	font-weight: 900;	
 	position: absolute;
 	left: -15px;
@@ -1117,7 +1116,7 @@ footer p {
 }
 .left-ab ul li::before {
     content: "\f105";
-    font-family: 'Font Awesome 5 Free';
+   
     font-weight: 900;
     position: absolute;
     left: -15px;
@@ -1469,7 +1468,7 @@ footer p {
 }
 #accordionExample  .accordion-single h5 button[aria-expanded="false"]::before {
     content: "\f105";
-	font-family: "Font Awesome 5 Free";
+	
 	font-weight: 900;
 	width: 40px;
 	height: 47px;
@@ -1487,7 +1486,7 @@ footer p {
 }
 #accordionExample  .accordion-single h5 button[aria-expanded="true"]::before{
     content: "\f107";
-	font-family: "Font Awesome 5 Free";
+	
 	font-weight: 900;
 	width: 40px;
 	height: 47px;
